@@ -16,7 +16,7 @@ hero:
 
 features:
   - title: Explore Curated Tech Wonders
-    details: Welcome to "Lulu's Favorites"! Discover a curated collection of tech wonders from the web - coding, hardware, and more.
+    details: Welcome to "Lulu's Favorites"! Discover a curated collection of tech wonders from the internet - coding, hardware, and more.
     icon: 🌏
   - title: Handpicked Goodness
     details: Every item is handpicked by me, Lulu, to inspire your tech passion and projects.
