@@ -5,7 +5,7 @@
         "items": [
             {
                 "text": "How to increase SWAP size in Raspberry Pi",
-                "link": "Favorites/Raspberry Pi/How to increase SWAP size in Raspberry Pi.md"
+                "link": "/Favorites/Raspberry Pi/How to increase SWAP size in Raspberry Pi.md"
             },
             {
                 "text": "GPIO I2C SPI",
@@ -13,15 +13,15 @@
                 "items": [
                     {
                         "text": "Configuring I2C on the Raspberry Pi",
-                        "link": "Favorites/Raspberry Pi/GPIO I2C SPI/Configuring I2C on the Raspberry Pi.md"
+                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/Configuring I2C on the Raspberry Pi.md"
                     },
                     {
                         "text": "ImportError: No module named RPi",
-                        "link": "Favorites/Raspberry Pi/GPIO I2C SPI/ImportError: No module named RPi.md"
+                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/ImportError: No module named RPi.md"
                     },
                     {
                         "text": "Install raspi-config on Ubuntu 22.04.1 LTS",
-                        "link": "Favorites/Raspberry Pi/GPIO I2C SPI/Install raspi-config on Ubuntu 22.04.1 LTS.md"
+                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/Install raspi-config on Ubuntu 22.04.1 LTS.md"
                     }
                 ]
             }
@@ -33,15 +33,15 @@
         "items": [
             {
                 "text": "Prompt Palette",
-                "link": "Favorites/Toolbox/Prompt Palette.md"
+                "link": "/Favorites/Toolbox/Prompt Palette.md"
             },
             {
                 "text": "Tools",
-                "link": "Favorites/Toolbox/Tools.md"
+                "link": "/Favorites/Toolbox/Tools.md"
             },
             {
                 "text": "Resources",
-                "link": "Favorites/Toolbox/Resources.md"
+                "link": "/Favorites/Toolbox/Resources.md"
             }
         ]
     },
@@ -55,15 +55,15 @@
                 "items": [
                     {
                         "text": "How to use jQuery in Nuxt.js",
-                        "link": "Favorites/Fronted/Nuxt/How to use jQuery in Nuxt.js.md"
+                        "link": "/Favorites/Fronted/Nuxt/How to use jQuery in Nuxt.js.md"
                     },
                     {
                         "text": "Cannot load Pinia in Nuxt3",
-                        "link": "Favorites/Fronted/Nuxt/Cannot load Pinia in Nuxt3.md"
+                        "link": "/Favorites/Fronted/Nuxt/Cannot load Pinia in Nuxt3.md"
                     },
                     {
                         "text": "vuedraggable custom component setup in Nuxt3",
-                        "link": "Favorites/Fronted/Nuxt/vuedraggable custom component setup in Nuxt3.md"
+                        "link": "/Favorites/Fronted/Nuxt/vuedraggable custom component setup in Nuxt3.md"
                     }
                 ]
             }
@@ -79,7 +79,7 @@
                 "items": [
                     {
                         "text": "WSL\u548cVMware\u4e0d\u517c\u5bb9\uff0c\u5b89\u88c5\u4e86WSL\u4e4b\u540eVMware\u542f\u52a8\u4e0d\u8d77\u6765",
-                        "link": "Favorites/Operating System/Windows Subsystem for Linux/WSL\u548cVMware\u4e0d\u517c\u5bb9\uff0c\u5b89\u88c5\u4e86WSL\u4e4b\u540eVMware\u542f\u52a8\u4e0d\u8d77\u6765.md"
+                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL\u548cVMware\u4e0d\u517c\u5bb9\uff0c\u5b89\u88c5\u4e86WSL\u4e4b\u540eVMware\u542f\u52a8\u4e0d\u8d77\u6765.md"
                     }
                 ]
             }
