@@ -46,6 +46,16 @@
         "collapsed": true,
         "items": [
             {
+                "text": "AJAX",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Using AJAX to Interact with JSON Files",
+                        "link": "/Favorites/Fronted/AJAX/Using AJAX to Interact with JSON Files.md"
+                    }
+                ]
+            },
+            {
                 "text": "Nuxt",
                 "collapsed": true,
                 "items": [
@@ -88,8 +98,8 @@
                         "link": "/Favorites/Operating System/Windows Subsystem for Linux/How do I free up space on WSL.md"
                     },
                     {
-                        "text": "WSL\u548cVMware\u4e0d\u517c\u5bb9\uff0c\u5b89\u88c5\u4e86WSL\u4e4b\u540eVMware\u542f\u52a8\u4e0d\u8d77\u6765",
-                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL\u548cVMware\u4e0d\u517c\u5bb9\uff0c\u5b89\u88c5\u4e86WSL\u4e4b\u540eVMware\u542f\u52a8\u4e0d\u8d77\u6765.md"
+                        "text": "WSL and VMware Incompatibility",
+                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL and VMware Incompatibility.md"
                     }
                 ]
             }
