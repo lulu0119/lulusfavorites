@@ -38,10 +38,6 @@
             {
                 "text": "Tools",
                 "link": "/Favorites/Toolbox/Tools.md"
-            },
-            {
-                "text": "Resources",
-                "link": "/Favorites/Toolbox/Resources.md"
             }
         ]
     },
@@ -66,6 +62,16 @@
                         "link": "/Favorites/Fronted/Nuxt/vuedraggable custom component setup in Nuxt3.md"
                     }
                 ]
+            },
+            {
+                "text": "Element Plus",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "How to Set the Height of el-menu",
+                        "link": "/Favorites/Fronted/Element Plus/How to Set the Height of el-menu.md"
+                    }
+                ]
             }
         ]
     },
@@ -77,6 +83,10 @@
                 "text": "Windows Subsystem for Linux",
                 "collapsed": true,
                 "items": [
+                    {
+                        "text": "How do I free up space on WSL",
+                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/How do I free up space on WSL.md"
+                    },
                     {
                         "text": "WSL\u548cVMware\u4e0d\u517c\u5bb9\uff0c\u5b89\u88c5\u4e86WSL\u4e4b\u540eVMware\u542f\u52a8\u4e0d\u8d77\u6765",
                         "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL\u548cVMware\u4e0d\u517c\u5bb9\uff0c\u5b89\u88c5\u4e86WSL\u4e4b\u540eVMware\u542f\u52a8\u4e0d\u8d77\u6765.md"

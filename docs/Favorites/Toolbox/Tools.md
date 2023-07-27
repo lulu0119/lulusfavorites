@@ -47,6 +47,11 @@ Reference site about Lorem Ipsum, giving information on its origins, as well as 
 [**在线文本转语音: Text To Speech**](https://www.text-to-speech.cn/)  
 Text To Speech，文本转语音，文本朗读，让机器能够说话。构建自然说话的应用和服务，从147 种语言和变体中选择456 种语音。借助高表现力和类似人类的神经语音， ...
 
+## Text-to-Handwriting
+
+[**Text to Handwriting**](https://saurabhdaware.github.io/text-to-handwriting/)  
+I hate writing assignments so I made this tool that converts text to an image that looks like handwriting. You can copy paste text content into the textbox ...
+
 ## Astronomy and Weather
 
 [**天文通 - 全球光污染地图**](https://www.darkmap.cn/)  
@@ -55,12 +60,22 @@ Text To Speech，文本转语音，文本朗读，让机器能够说话。构建
 [**Windy: Wind map & weather forecast**](https://www.windy.com/)  
 Weather radar, wind and waves forecast for kiters, surfers, paragliders, pilots, sailors and anyone else. Worldwide animated weather map, with easy to use ...
 
+## Machine Learning
+
+[**Papers With Code: The latest in Machine Learning**](https://paperswithcode.com/)  
+Papers With Code highlights trending Machine Learning research and the code to implement it.
+
+## Technology
+
+[**TechPowerUp**](https://www.techpowerup.com/)  
+Leading tech publication, with fast news, thorough reviews, and a strong community.
+
 ## Emojis
 
 [**😋 Get Emoji — All Emojis to ✂️ Copy and 📋 Paste 👌**](https://getemoji.com/)  
 Copy and 📋 Paste Emoji 👍 No apps required. Emojis are supported on iOS, Android, macOS, Windows, Linux and ChromeOS. Copy and paste emojis for Twitter, ...
 
-## Machine Learning
+## Icons and Graphics
 
-[**Papers With Code: The latest in Machine Learning**](https://paperswithcode.com/)  
-Papers With Code highlights trending Machine Learning research and the code to implement it.
+[**iconfont-阿里巴巴矢量图标库**](https://www.iconfont.cn/)  
+iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具.
