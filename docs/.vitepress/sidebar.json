@@ -28,6 +28,16 @@
         ]
     },
     {
+        "text": "Algorithm",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "Edit distance and backtracking path",
+                "link": "/Favorites/Algorithm/Edit distance and backtracking path.md"
+            }
+        ]
+    },
+    {
         "text": "Toolbox",
         "collapsed": true,
         "items": [
@@ -52,6 +62,16 @@
                     {
                         "text": "Using AJAX to Interact with JSON Files",
                         "link": "/Favorites/Fronted/AJAX/Using AJAX to Interact with JSON Files.md"
+                    }
+                ]
+            },
+            {
+                "text": "VitePress",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "How to use VitePress to show LaTeX",
+                        "link": "/Favorites/Fronted/VitePress/How to use VitePress to show LaTeX.md"
                     }
                 ]
             },

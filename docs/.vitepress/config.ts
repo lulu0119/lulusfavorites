@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import mathjax3 from 'markdown-it-mathjax3';
+import customElements from './customElements';
 import sidebar from './sidebar.json'
 
 // https://vitepress.dev/reference/site-config
@@ -23,5 +25,17 @@ export default defineConfig({
       message: `Content on "Lulu's Favorites" is under CC BY-NC-SA 4.0.`,
       copyright: '© 2023-present Lulu All Rights Reserved.'
     }
-  }
+  },
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3);
+    },
+  },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => customElements.includes(tag),
+      },
+    },
+  },
 })
