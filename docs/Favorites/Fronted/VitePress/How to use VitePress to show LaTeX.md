@@ -106,31 +106,31 @@ Here is the configuration method:
     ];
 
     export default {
-    markdown: {
-        config: (md) => {
-        md.use(mathjax3);
+        markdown: {
+            config: (md) => {
+            md.use(mathjax3);
+            },
         },
-    },
-    vue: {
-        template: {
-        compilerOptions: {
-            isCustomElement: (tag) => customElements.includes(tag),
+        vue: {
+            template: {
+            compilerOptions: {
+                isCustomElement: (tag) => customElements.includes(tag),
+            },
+            },
         },
-        },
-    },
     };
     ```
 
 3. Add the following CSS to make inline math available:
     ```CSS
     mjx-container {
-    display: inline-block;
-    margin: auto 2px -2px;
+        display: inline-block;
+        margin: auto 2px -2px;
     }
 
     mjx-container > svg {
-    margin: auto;
-    display: inline-block;
+        margin: auto;
+        display: inline-block;
     }
     ```
 
