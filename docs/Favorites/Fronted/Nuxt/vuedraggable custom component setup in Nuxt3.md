@@ -39,3 +39,7 @@ With transition-group:
   </template>
 </draggable>
 ```
+
+**Current Version:**  
+- `nuxt`: 3.6.2
+- `vuedraggable`: 4.1.0

@@ -20,3 +20,6 @@ if (typeof document !== 'undefined') {
 }
 ```
 Simply add this code to your project, and el-menu will use the new height for its items.
+
+**Current Version:**  
+- `element-plus`: 2.3.8

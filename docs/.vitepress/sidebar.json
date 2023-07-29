@@ -4,10 +4,6 @@
         "collapsed": true,
         "items": [
             {
-                "text": "How to increase SWAP size in Raspberry Pi",
-                "link": "/Favorites/Raspberry Pi/How to increase SWAP size in Raspberry Pi.md"
-            },
-            {
                 "text": "GPIO I2C SPI",
                 "collapsed": true,
                 "items": [
@@ -18,10 +14,6 @@
                     {
                         "text": "ImportError: No module named RPi",
                         "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/ImportError: No module named RPi.md"
-                    },
-                    {
-                        "text": "Install raspi-config on Ubuntu 22.04.1 LTS",
-                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/Install raspi-config on Ubuntu 22.04.1 LTS.md"
                     }
                 ]
             }

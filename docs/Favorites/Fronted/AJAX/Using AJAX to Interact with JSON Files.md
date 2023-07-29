@@ -63,57 +63,57 @@ The following example demonstrates how to use AJAX to send data to a server usin
 ```html
 <!-- HTML Form -->
 <form id="myForm">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name"><br><br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br><br>
-  <button type="submit" id="submitBtn">Submit</button>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <button type="submit" id="submitBtn">Submit</button>
 </form>
 
 <!-- JavaScript Code -->
 <script>
-  // Define a function to submit the form data using XMLHttpRequest and Promise
-  function submitXMLDoc(formData) {
-    return new Promise((resolve, reject) => {
-      const xhr = new XMLHttpRequest();
-      xhr.open("POST", "https://example.com/api/submit", true);
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4) {
-          if (xhr.status === 200) {
-            const response = JSON.parse(xhr.responseText);
-            resolve(response);
-          } else {
-            reject(new Error("There was a problem with the request."));
-          }
-        }
-      };
-      xhr.send(formData);
+    // Define a function to submit the form data using XMLHttpRequest and Promise
+    function submitXMLDoc(formData) {
+        return new Promise((resolve, reject) => {
+            const xhr = new XMLHttpRequest();
+            xhr.open("POST", "https://example.com/api/submit", true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        const response = JSON.parse(xhr.responseText);
+                        resolve(response);
+                    } else {
+                        reject(new Error("There was a problem with the request."));
+                    }
+                }
+            };
+            xhr.send(formData);
+        });
+    }
+
+    // Get the form element and submit button element
+    const form = document.getElementById("myForm");
+    const submitBtn = document.getElementById("submitBtn");
+
+    // Add a click event listener to the submit button
+    submitBtn.addEventListener("click", function (event) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
+
+        // Create a new FormData object and append form data
+        const formData = new FormData(form);
+
+        // Call the submitXMLDoc function and handle the response with a Promise chain
+        submitXMLDoc(formData)
+            .then((response) => {
+                console.log(response);
+                // Handle the response data
+            })
+            .catch((error) => {
+                console.error(error);
+                // Handle the error
+            });
     });
-  }
-
-  // Get the form element and submit button element
-  const form = document.getElementById("myForm");
-  const submitBtn = document.getElementById("submitBtn");
-
-  // Add a click event listener to the submit button
-  submitBtn.addEventListener("click", function(event) {
-    // Prevent the default form submission behavior
-    event.preventDefault();
-
-    // Create a new FormData object and append form data
-    const formData = new FormData(form);
-    
-    // Call the submitXMLDoc function and handle the response with a Promise chain
-    submitXMLDoc(formData)
-      .then((response) => {
-        console.log(response);
-        // Handle the response data
-      })
-      .catch((error) => {
-        console.error(error);
-        // Handle the error
-      });
-  });
 
 </script>
 ```

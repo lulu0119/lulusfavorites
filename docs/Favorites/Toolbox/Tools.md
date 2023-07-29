@@ -79,3 +79,13 @@ Copy and 📋 Paste Emoji 👍 No apps required. Emojis are supported on iOS, An
 
 [**iconfont-阿里巴巴矢量图标库**](https://www.iconfont.cn/)  
 iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具.
+
+## API Development and Management
+
+[**Postman API Platform**](https://www.postman.com/)
+Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create ...
+
+## Code Visualization
+
+[**Ray.so**](https://ray.so/)
+Turn your code into beautiful images. Choose from a range of syntax colors, hide or show the background, and toggle between a dark and light window.
