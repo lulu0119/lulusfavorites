@@ -24,6 +24,10 @@
         "collapsed": true,
         "items": [
             {
+                "text": "Water pouring puzzle",
+                "link": "/Favorites/Algorithm/Water pouring puzzle.md"
+            },
+            {
                 "text": "Edit distance and backtracking path",
                 "link": "/Favorites/Algorithm/Edit distance and backtracking path.md"
             }
