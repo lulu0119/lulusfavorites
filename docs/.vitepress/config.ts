@@ -19,7 +19,7 @@ export default defineConfig({
     ],
     sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lulu0119/Lulus-Favorites' }
+      { icon: 'github', link: 'https://github.com/lulu0119/lulusfavorites' }
     ],
     footer: {
       message: `Content on "Lulu's Favorites" is under CC BY-NC-SA 4.0.`,
