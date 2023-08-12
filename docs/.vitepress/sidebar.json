@@ -1,19 +1,67 @@
 [
     {
-        "text": "Raspberry Pi",
-        "collapsed": true,
+        "text": "Node Packages",
+        "collapsed": false,
         "items": [
             {
-                "text": "GPIO I2C SPI",
+                "text": "VitePress",
                 "collapsed": true,
                 "items": [
                     {
-                        "text": "Configuring I2C on the Raspberry Pi",
-                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/Configuring I2C on the Raspberry Pi.md"
+                        "text": "VitePress Sidebar",
+                        "link": "/Favorites/Node Packages/VitePress/VitePress Sidebar.md"
                     },
                     {
-                        "text": "ImportError: No module named RPi",
-                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/ImportError: No module named RPi.md"
+                        "text": "How to use VitePress to show LaTeX",
+                        "link": "/Favorites/Node Packages/VitePress/How to use VitePress to show LaTeX.md"
+                    }
+                ]
+            },
+            {
+                "text": "Element Plus",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "How to Set the Height of el-menu",
+                        "link": "/Favorites/Node Packages/Element Plus/How to Set the Height of el-menu.md"
+                    }
+                ]
+            },
+            {
+                "text": "Nuxt",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "vuedraggable custom component setup in Nuxt3",
+                        "link": "/Favorites/Node Packages/Nuxt/vuedraggable custom component setup in Nuxt3.md"
+                    },
+                    {
+                        "text": "Cannot load Pinia in Nuxt3",
+                        "link": "/Favorites/Node Packages/Nuxt/Cannot load Pinia in Nuxt3.md"
+                    },
+                    {
+                        "text": "How to use jQuery in Nuxt.js",
+                        "link": "/Favorites/Node Packages/Nuxt/How to use jQuery in Nuxt.js.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Operating System",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "Windows Subsystem for Linux",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "WSL and VMware Incompatibility",
+                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL and VMware Incompatibility.md"
+                    },
+                    {
+                        "text": "How do I free up space on WSL",
+                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/How do I free up space on WSL.md"
                     }
                 ]
             }
@@ -21,7 +69,7 @@
     },
     {
         "text": "Algorithm",
-        "collapsed": true,
+        "collapsed": false,
         "items": [
             {
                 "text": "Water pouring puzzle",
@@ -34,8 +82,44 @@
         ]
     },
     {
+        "text": "Raspberry Pi",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "GPIO I2C SPI",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "ImportError: No module named RPi",
+                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/ImportError: No module named RPi.md"
+                    },
+                    {
+                        "text": "Configuring I2C on the Raspberry Pi",
+                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/Configuring I2C on the Raspberry Pi.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Web Frontend",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "AJAX",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Using AJAX to Interact with {JSON} Placeholder",
+                        "link": "/Favorites/Web Frontend/AJAX/Using AJAX to Interact with {JSON} Placeholder.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "text": "Toolbox",
-        "collapsed": true,
+        "collapsed": false,
         "items": [
             {
                 "text": "Prompt Palette",
@@ -44,80 +128,6 @@
             {
                 "text": "Tools",
                 "link": "/Favorites/Toolbox/Tools.md"
-            }
-        ]
-    },
-    {
-        "text": "Fronted",
-        "collapsed": true,
-        "items": [
-            {
-                "text": "AJAX",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "Using AJAX to Interact with {JSON} Placeholder",
-                        "link": "/Favorites/Fronted/AJAX/Using AJAX to Interact with {JSON} Placeholder.md"
-                    }
-                ]
-            },
-            {
-                "text": "VitePress",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "How to use VitePress to show LaTeX",
-                        "link": "/Favorites/Fronted/VitePress/How to use VitePress to show LaTeX.md"
-                    }
-                ]
-            },
-            {
-                "text": "Nuxt",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "How to use jQuery in Nuxt.js",
-                        "link": "/Favorites/Fronted/Nuxt/How to use jQuery in Nuxt.js.md"
-                    },
-                    {
-                        "text": "Cannot load Pinia in Nuxt3",
-                        "link": "/Favorites/Fronted/Nuxt/Cannot load Pinia in Nuxt3.md"
-                    },
-                    {
-                        "text": "vuedraggable custom component setup in Nuxt3",
-                        "link": "/Favorites/Fronted/Nuxt/vuedraggable custom component setup in Nuxt3.md"
-                    }
-                ]
-            },
-            {
-                "text": "Element Plus",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "How to Set the Height of el-menu",
-                        "link": "/Favorites/Fronted/Element Plus/How to Set the Height of el-menu.md"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "text": "Operating System",
-        "collapsed": true,
-        "items": [
-            {
-                "text": "Windows Subsystem for Linux",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "How do I free up space on WSL",
-                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/How do I free up space on WSL.md"
-                    },
-                    {
-                        "text": "WSL and VMware Incompatibility",
-                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL and VMware Incompatibility.md"
-                    }
-                ]
             }
         ]
     }

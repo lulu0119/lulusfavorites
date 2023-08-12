@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: Home
 
 hero:
   name: "Lulu's Favorites"
@@ -12,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: Start Exploring
-      link: /welcome
+      link: welcome.md
 
 features:
   - title: Explore Curated Tech Wonders
@@ -29,4 +30,3 @@ features:
     icon: ⚒️
 
 ---
-
