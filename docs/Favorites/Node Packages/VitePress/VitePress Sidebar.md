@@ -41,7 +41,7 @@ def auto_sidebar(document_path='/', collapsed=False, collapse_depth=None, exclud
     return result
 ```
 
-## How the Code Snippet Works
+## How the code snippet works
 Suppose you have a documentation site with the following file structure:
 ```shell
 /
