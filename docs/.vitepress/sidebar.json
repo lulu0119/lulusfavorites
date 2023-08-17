@@ -128,6 +128,10 @@
             {
                 "text": "Tools",
                 "link": "/Favorites/Toolbox/Tools.md"
+            },
+            {
+                "text": "How to Use Git and GitHub",
+                "link": "/Favorites/Toolbox/How to Use Git and GitHub.md"
             }
         ]
     }
