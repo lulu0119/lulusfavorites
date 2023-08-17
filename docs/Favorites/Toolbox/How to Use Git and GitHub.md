@@ -13,7 +13,7 @@ git config --global user.email "youremail@example.com"
 Users in mainland China may experience difficulty accessing GitHub due to the country's internet censorship policies. To set up a proxy server, run the following command, replacing `127.0.0.1` and `7890` with the hostname and port number of the proxy server:
 ```shell
 git config --global http.proxy http://127.0.0.1:7890
-git config --global https.proxy http://127.0.0.1:7890
+git config --global https.proxy https://127.0.0.1:7890
 ```
 By default, Git uses the system's default editor (usually Vim or Nano) for commit messages and other text input. If you prefer a different editor, you can set it up with the following command, replacing nano with your preferred editor:
 ```shell
