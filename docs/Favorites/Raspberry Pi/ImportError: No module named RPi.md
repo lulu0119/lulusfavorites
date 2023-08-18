@@ -1,6 +1,9 @@
 # ImportError: No module named RPi
 
-https://raspberrypi.stackexchange.com/questions/60774/importerror-no-module-named-rpi
+| Original Source                                                                                         | Authors        | Title                            | Copyright Notice |
+| ------------------------------------------------------------------------------------------------------- | -------------- | -------------------------------- | ---------------- |
+| [Stack Exchange](https://raspberrypi.stackexchange.com/questions/60774/importerror-no-module-named-rpi) | BetaDev et al. | ImportError: No module named RPi | CC BY-SA 4.0     |
+
 
 Install python-pip using the command:
 ```shell

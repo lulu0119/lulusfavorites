@@ -1,6 +1,10 @@
 # How to Set the Height of el-menu
 
-https://github.com/element-plus/element-plus/issues/4864
+| Original Source                                                           | Authors             | Title                                                   |
+| ------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------- |
+| [GitHub Issues](https://github.com/element-plus/element-plus/issues/4864) | xiangqunXiao et al. | [Bug Report] please do not set fixed height for el-menu |
+
+*Disclaimer: This content belongs to the original author/creator and is being reposted for informational purposes.*
 
 If you're using el-menu and want to customize its height, you may have noticed that it's not as straightforward as you might expect. This guide will show you how to set the height of el-menu using CSS variables.
 

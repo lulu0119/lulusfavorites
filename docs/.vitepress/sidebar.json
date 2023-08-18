@@ -86,18 +86,12 @@
         "collapsed": false,
         "items": [
             {
-                "text": "GPIO I2C SPI",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "ImportError: No module named RPi",
-                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/ImportError: No module named RPi.md"
-                    },
-                    {
-                        "text": "Configuring I2C on the Raspberry Pi",
-                        "link": "/Favorites/Raspberry Pi/GPIO I2C SPI/Configuring I2C on the Raspberry Pi.md"
-                    }
-                ]
+                "text": "ImportError: No module named RPi",
+                "link": "/Favorites/Raspberry Pi/ImportError: No module named RPi.md"
+            },
+            {
+                "text": "Configuring I2C on the Raspberry Pi",
+                "link": "/Favorites/Raspberry Pi/Configuring I2C on the Raspberry Pi.md"
             }
         ]
     },

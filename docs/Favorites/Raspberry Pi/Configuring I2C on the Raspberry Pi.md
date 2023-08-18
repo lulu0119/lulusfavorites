@@ -1,6 +1,10 @@
 # Configuring I2C on the Raspberry Pi
 
-https://pimylifeup.com/raspberry-pi-i2c/
+| Original Source                                           | Author | Title                               |
+| --------------------------------------------------------- | ------ | ----------------------------------- |
+| [Pi My Life Up](https://pimylifeup.com/raspberry-pi-i2c/) | Emmet  | Configuring I2C on the Raspberry Pi |
+
+*Disclaimer: This content belongs to the original author/creator and is being reposted for informational purposes.*
 
 ## Equipment
 Below is the equipment that we used for setting up our Pi for I2C.

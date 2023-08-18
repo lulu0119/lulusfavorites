@@ -1,6 +1,10 @@
 # How to use jQuery in Nuxt.js
 
-https://kaloraat.com/articles/how-to-use-jquery-in-nuxtjs
+| Original Source                                                       | Author       | Title                        |
+| --------------------------------------------------------------------- | ------------ | ---------------------------- |
+| [Kaloraat](https://kaloraat.com/articles/how-to-use-jquery-in-nuxtjs) | Ryan Dhungel | How to use jQuery in Nuxt.js |
+
+*Disclaimer: This content belongs to the original author/creator and is being reposted for informational purposes.*
 
 ## First way (easy) 
 

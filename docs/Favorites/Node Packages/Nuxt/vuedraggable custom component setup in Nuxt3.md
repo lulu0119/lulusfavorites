@@ -1,8 +1,8 @@
 # vuedraggable custom component setup in Nuxt3
 
-https://stackoverflow.com/questions/73614735/vuedraggable-custom-component-setup-in-nuxt3
-
-https://github.com/SortableJS/vue.draggable.next/tree/master
+| Original Source                                                                                             | Author  | Title                                        | Copyright Notice |
+| ----------------------------------------------------------------------------------------------------------- | ------- | -------------------------------------------- | ---------------- |
+| [Stack Overflow](https://stackoverflow.com/questions/73614735/vuedraggable-custom-component-setup-in-nuxt3) | Jordash | vuedraggable custom component setup in Nuxt3 | CC BY-SA 4.0     |
 
 ## Installation
 

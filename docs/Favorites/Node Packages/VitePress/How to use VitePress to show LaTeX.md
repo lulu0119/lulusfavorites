@@ -1,6 +1,10 @@
 # How to use VitePress to show LaTeX
 
-https://github.com/vuejs/vitepress/issues/529
+| Original Source                                                | Authors         | Title                        |
+| -------------------------------------------------------------- | --------------- | ---------------------------- |
+| [GitHub Issues](https://github.com/vuejs/vitepress/issues/529) | ngctnnnn et al. | KaTeX/MathJax implementation |
+
+*Disclaimer: This content belongs to the original author/creator and is being reposted for informational purposes.*
 
 To add mathematical formulas to Markdown using VitePress, the default parser does not support LaTeX. I recommend using the `markdown-it-mathjax3` plugin, which is a fork of `markdown-it-katex` and supports MathJax v3 and SVG rendering. 
 

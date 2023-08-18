@@ -1,6 +1,8 @@
 # WSL and VMware Incompatibility: VMware Fails to Start After Installing WSL
 
-https://blog.csdn.net/weixin_41019705/article/details/105167871
+| Original Source                                                             | Author     | Title                                                 | Copyright Notice |
+| --------------------------------------------------------------------------- | ---------- | ----------------------------------------------------- | ---------------- |
+| [CSDN博客](https://blog.csdn.net/weixin_41019705/article/details/105167871) | zhuxiatong | Windows安装WSL(解决VMware Workstation和Hyper-V不兼容) | CC BY-SA 4.0     |
 
 WSL relies on Hyper-V, which must be enabled, while VMware does not depend on it and must be disabled.
 

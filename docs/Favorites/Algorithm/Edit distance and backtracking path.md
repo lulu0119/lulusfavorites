@@ -1,7 +1,5 @@
 # Edit distance and backtracking path
 
-https://en.wikipedia.org/wiki/Levenshtein_distance
-
 **Edit distance** is a quantitative measure of the difference between two strings, such as English words. It measures the minimum number of operations required to transform one string into another.  
 
 In Levenshtein distance, any single character can be deleted, inserted, or substituted in either string, which is the most commonly used definition of edit distance. When edit distance is mentioned, it usually refers to Levenshtein distance.
@@ -100,3 +98,7 @@ for i, operation in enumerate(result):
     print(f"Step {i+1}: {operation}")
 ```
 This will output the list of operations needed to transform **str_a** into **str_b**, along with the step number for each operation.
+
+For more information on Levenshtein distance, see [Wikipedia][1].
+
+[1]: https://en.wikipedia.org/wiki/Levenshtein_distance
