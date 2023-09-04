@@ -18,7 +18,7 @@ export default defineConfig({
       { text: 'Favorites', link: '/welcome' },
     ],
     search: {
-      provider: 'local'
+      provider: 'local',
     },
     sidebar,
     socialLinks: [
