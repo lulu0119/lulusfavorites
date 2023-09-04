@@ -1,4 +1,4 @@
-# ImportError: No module named RPi
+# How to Fix "No module named RPi" Error on Raspberry Pi
 
 | Original Source                                                                                         | Authors        | Title                            | Copyright Notice |
 | ------------------------------------------------------------------------------------------------------- | -------------- | -------------------------------- | ---------------- |
