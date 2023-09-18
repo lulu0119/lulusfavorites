@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"scripts": {
-		"docs:dev": "python sidebar_generator.py --document-path docs/Favorites/ --exclude-files README.md --exclude-folders images --collapse-depth 2 --collapsed --output-path docs/.vitepress/sidebar.json && vitepress dev docs",
+		"docs:dev": "python sidebar_generator.py --document-path docs/Favorites/ --collapse-depth 1 --collapsed --output-path docs/.vitepress/sidebar.json && vitepress dev docs",
 		"docs:build": "vitepress build docs",
 		"docs:preview": "vitepress preview docs"
 	},

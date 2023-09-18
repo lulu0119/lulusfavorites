@@ -171,6 +171,7 @@ With this configuration, VitePress will have a sidebar based on the file structu
 
 ## Automatically Generate
 To generate the sidebar automatically before building your VitePress site, you can add a command to your `package.json` file that runs the `sidebar_generator.py` file before running the vitepress build command.
+
 Here's an example of how to add this command to your package.json file:
 ```json
 {
