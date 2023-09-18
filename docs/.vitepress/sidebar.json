@@ -1,25 +1,25 @@
 [
     {
+        "text": "Algorithm",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "Edit distance and backtracking path",
+                "link": "/Favorites/Algorithm/Edit distance and backtracking path.md"
+            },
+            {
+                "text": "Water pouring puzzle",
+                "link": "/Favorites/Algorithm/Water pouring puzzle.md"
+            }
+        ]
+    },
+    {
         "text": "Node Packages",
         "collapsed": false,
         "items": [
             {
-                "text": "VitePress",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "VitePress Sidebar",
-                        "link": "/Favorites/Node Packages/VitePress/VitePress Sidebar.md"
-                    },
-                    {
-                        "text": "How to use VitePress to show LaTeX",
-                        "link": "/Favorites/Node Packages/VitePress/How to use VitePress to show LaTeX.md"
-                    }
-                ]
-            },
-            {
                 "text": "Element Plus",
-                "collapsed": true,
+                "collapsed": false,
                 "items": [
                     {
                         "text": "How to Set the Height of el-menu",
@@ -29,12 +29,8 @@
             },
             {
                 "text": "Nuxt",
-                "collapsed": true,
+                "collapsed": false,
                 "items": [
-                    {
-                        "text": "vuedraggable custom component setup in Nuxt3",
-                        "link": "/Favorites/Node Packages/Nuxt/vuedraggable custom component setup in Nuxt3.md"
-                    },
                     {
                         "text": "Cannot load Pinia in Nuxt3",
                         "link": "/Favorites/Node Packages/Nuxt/Cannot load Pinia in Nuxt3.md"
@@ -42,6 +38,24 @@
                     {
                         "text": "How to use jQuery in Nuxt.js",
                         "link": "/Favorites/Node Packages/Nuxt/How to use jQuery in Nuxt.js.md"
+                    },
+                    {
+                        "text": "vuedraggable custom component setup in Nuxt3",
+                        "link": "/Favorites/Node Packages/Nuxt/vuedraggable custom component setup in Nuxt3.md"
+                    }
+                ]
+            },
+            {
+                "text": "VitePress",
+                "collapsed": false,
+                "items": [
+                    {
+                        "text": "How to use VitePress to show LaTeX",
+                        "link": "/Favorites/Node Packages/VitePress/How to use VitePress to show LaTeX.md"
+                    },
+                    {
+                        "text": "VitePress Sidebar",
+                        "link": "/Favorites/Node Packages/VitePress/VitePress Sidebar.md"
                     }
                 ]
             }
@@ -53,31 +67,17 @@
         "items": [
             {
                 "text": "Windows Subsystem for Linux",
-                "collapsed": true,
+                "collapsed": false,
                 "items": [
-                    {
-                        "text": "WSL and VMware Incompatibility",
-                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL and VMware Incompatibility.md"
-                    },
                     {
                         "text": "How do I free up space on WSL",
                         "link": "/Favorites/Operating System/Windows Subsystem for Linux/How do I free up space on WSL.md"
+                    },
+                    {
+                        "text": "WSL and VMware Incompatibility",
+                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL and VMware Incompatibility.md"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "text": "Algorithm",
-        "collapsed": false,
-        "items": [
-            {
-                "text": "Water pouring puzzle",
-                "link": "/Favorites/Algorithm/Water pouring puzzle.md"
-            },
-            {
-                "text": "Edit distance and backtracking path",
-                "link": "/Favorites/Algorithm/Edit distance and backtracking path.md"
             }
         ]
     },
@@ -86,12 +86,30 @@
         "collapsed": false,
         "items": [
             {
-                "text": "ImportError: No module named RPi",
-                "link": "/Favorites/Raspberry Pi/ImportError: No module named RPi.md"
-            },
-            {
                 "text": "Configuring I2C on the Raspberry Pi",
                 "link": "/Favorites/Raspberry Pi/Configuring I2C on the Raspberry Pi.md"
+            },
+            {
+                "text": "How to Fix No module named RPi Error on Raspberry Pi",
+                "link": "/Favorites/Raspberry Pi/How to Fix No module named RPi Error on Raspberry Pi.md"
+            }
+        ]
+    },
+    {
+        "text": "Toolbox",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "How to Use Git and GitHub",
+                "link": "/Favorites/Toolbox/How to Use Git and GitHub.md"
+            },
+            {
+                "text": "Prompt Palette",
+                "link": "/Favorites/Toolbox/Prompt Palette.md"
+            },
+            {
+                "text": "Tools",
+                "link": "/Favorites/Toolbox/Tools.md"
             }
         ]
     },
@@ -101,31 +119,13 @@
         "items": [
             {
                 "text": "AJAX",
-                "collapsed": true,
+                "collapsed": false,
                 "items": [
                     {
                         "text": "Using AJAX to Interact with {JSON} Placeholder",
                         "link": "/Favorites/Web Frontend/AJAX/Using AJAX to Interact with {JSON} Placeholder.md"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "text": "Toolbox",
-        "collapsed": false,
-        "items": [
-            {
-                "text": "Prompt Palette",
-                "link": "/Favorites/Toolbox/Prompt Palette.md"
-            },
-            {
-                "text": "Tools",
-                "link": "/Favorites/Toolbox/Tools.md"
-            },
-            {
-                "text": "How to Use Git and GitHub",
-                "link": "/Favorites/Toolbox/How to Use Git and GitHub.md"
             }
         ]
     }
