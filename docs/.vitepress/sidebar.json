@@ -4,6 +4,16 @@
         "collapsed": false,
         "items": [
             {
+                "text": "uni-app",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "\u5728uni-app\u4e2d\u4f7f\u7528ECharts",
+                        "link": "/Favorites/Node Packages/uni-app/\u5728uni-app\u4e2d\u4f7f\u7528ECharts.md"
+                    }
+                ]
+            },
+            {
                 "text": "VitePress",
                 "collapsed": true,
                 "items": [
