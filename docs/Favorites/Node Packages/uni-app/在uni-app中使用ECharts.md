@@ -59,10 +59,17 @@ const chart = ref(null)
 // 初始化并设置option, 监听option变化
 onMounted(async () => {
     await chart.value.init(echarts, (chart) => chart.setOption(option.value));
-    watchEffect(async () => {
+});
+
+const unwatch = watchEffect(async () => {
+    if (chart.value) {
         await chart.value.setOption(option.value);
-    })
-})
+    }
+});
+
+onUnmounted(() => {
+    unwatch();
+});
 
 </script>
 ```
