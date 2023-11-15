@@ -4,16 +4,6 @@
         "collapsed": false,
         "items": [
             {
-                "text": "uni-app",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "\u5728uni-app\u4e2d\u4f7f\u7528ECharts",
-                        "link": "/Favorites/Node Packages/uni-app/\u5728uni-app\u4e2d\u4f7f\u7528ECharts.md"
-                    }
-                ]
-            },
-            {
                 "text": "VitePress",
                 "collapsed": true,
                 "items": [
@@ -34,6 +24,16 @@
                     {
                         "text": "How to Set the Height of el-menu",
                         "link": "/Favorites/Node Packages/Element Plus/How to Set the Height of el-menu.md"
+                    }
+                ]
+            },
+            {
+                "text": "Uniapp",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "\u5728Uniapp\u4e2d\u4f7f\u7528ECharts",
+                        "link": "/Favorites/Node Packages/Uniapp/\u5728Uniapp\u4e2d\u4f7f\u7528ECharts.md"
                     }
                 ]
             },
@@ -125,6 +125,10 @@
         "text": "Toolbox",
         "collapsed": false,
         "items": [
+            {
+                "text": "Interview Questions",
+                "link": "/Favorites/Toolbox/Interview Questions.md"
+            },
             {
                 "text": "Prompt Palette",
                 "link": "/Favorites/Toolbox/Prompt Palette.md"

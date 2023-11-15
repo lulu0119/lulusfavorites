@@ -1,7 +1,13 @@
-# 在uni-app中使用ECharts
-ECharts是一款基于JavaScript的开源可视化库，它提供了丰富的图表类型和交互功能，可以帮助开发者快速构建各种数据可视化应用。然而，由于ECharts涉及大量DOM操作，无法跨端使用。为了解决这个问题，开发者可以使用lime-echart插件，使ECharts图表能够在uni-app各端中运行。
+::: info
+This document is not the final version. 
+
+In the future, I plan to add multi-language support to my website. Stay tuned!
+:::
+
+# 在Uniapp中使用ECharts
+ECharts是一款基于JavaScript的开源可视化库，它提供了丰富的图表类型和交互功能，可以帮助开发者快速构建各种数据可视化应用。然而，由于ECharts涉及大量DOM操作，无法跨端使用。为了解决这个问题，开发者可以使用lime-echart插件，使ECharts图表能够在Uniapp各端中运行。
 ## lime-echart插件介绍
-lime-echart是一款uni-app插件，它可以将ECharts图表渲染到uni-app的各个端中，包括H5、小程序、APP等。使用lime-echart插件，开发者可以在uni-app中轻松地创建和展示各种ECharts图表，而无需关心跨端兼容性问题。
+lime-echart是一款Uniapp插件，它可以将ECharts图表渲染到Uniapp的各个端中，包括H5、小程序、APP等。使用lime-echart插件，开发者可以在Uniapp中轻松地创建和展示各种ECharts图表，而无需关心跨端兼容性问题。
 ## 安装和使用
 下面是使用lime-echart在Vue3中使用ECharts的步骤：
 1. 首先，我们需要访问https://ext.dcloud.net.cn/plugin?id=4899，下载插件并导入到HBuilderX中。
@@ -74,7 +80,7 @@ onUnmounted(() => {
 </script>
 ```
 
-以上就是在uni-app和Vue3中使用ECharts的步骤。使用lime-echart插件可以让我们更方便地在uni-app各个平台中使用ECharts，从而提高我们的开发效率。
+以上就是在Uniapp和Vue3中使用ECharts的步骤。使用lime-echart插件可以让我们更方便地在Uniapp各个平台中使用ECharts，从而提高我们的开发效率。
 
 **Current Version:**  
 - `lime-echart`: 0.8.1
