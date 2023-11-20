@@ -1,3 +1,7 @@
+::: warning
+⚠️ This document will be updated in the near future.
+:::
+
 # VitePress Sidebar
 ## Introduction
 Vitepress has a beautiful and easy-to-use sidebar, but currently, it doesn't offer an option to automatically generate sidebars. However, there are several plugins available that can help you achieve this functionality. Some popular options include:

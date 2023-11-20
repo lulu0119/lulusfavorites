@@ -1,5 +1,5 @@
-::: info
-This document is not the final version. 
+::: warning
+⚠️ This document is not the final version. 
 
 In the future, I plan to add multi-language support to my website. Stay tuned!
 :::

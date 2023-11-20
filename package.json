@@ -1,12 +1,15 @@
 {
     "type": "module",
     "scripts": {
-        "docs:dev": "python sidebar_generator.py --document-path docs/Favorites/ --collapse-depth 1 --collapsed --output-path docs/.vitepress/sidebar.json && vitepress dev docs",
+        "start:python": "python sidebar_generator.py --document-path docs/Favorites/ --collapse-depth 1 --collapsed --output-path docs/.vitepress/sidebar.json --watch",
+        "docs:dev": "vitepress dev docs",
         "docs:build": "vitepress build docs",
-        "docs:preview": "vitepress preview docs"
+        "docs:preview": "vitepress preview docs",
+        "start": "concurrently \"npm run start:python\" \"npm run docs:dev\""
     },
     "devDependencies": {
         "markdown-it-mathjax3": "^4.3.2",
-        "vitepress": "^v1.0.0-rc.25"
+        "vitepress": "^v1.0.0-rc.25",
+        "concurrently": "^6.4.0"
     }
 }
