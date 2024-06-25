@@ -1,17 +1,17 @@
 # How do I free up space on WSL?
 
-| Original Source                                | Author | Title                     |
-| ---------------------------------------------- | ------ | ------------------------- |
-| [知乎](https://zhuanlan.zhihu.com/p/358528257) | 贾KG   | 释放wsl占用的对于硬盘空间 |
+| Original Source                                | Author | Title                       |
+| ---------------------------------------------- | ------ | --------------------------- |
+| [知乎](https://zhuanlan.zhihu.com/p/358528257) | 贾 KG  | 释放 wsl 占用的对于硬盘空间 |
 
-*Disclaimer: This content belongs to the original author/creator and is being reposted for informational purposes.*
+_Disclaimer: This content belongs to the original author/creator and is being reposted for informational purposes._
 
 If you are using Windows Subsystem for Linux (WSL), you may have noticed that the virtual hard disk (VHD) used to store Linux files can take up a lot of space over time. Although the maximum limit for the VHD is 256GB, the space used by the VHD does not automatically decrease when files are deleted from the Linux environment. To avoid hitting the 256GB limit or receiving disk space warnings, you need to manually release the space used by the VHD after deleting files from the Linux environment.
 
 Here are the steps to release the space used by the VHD:
 
 1. Locate the VHD file for WSL:  
-    "C:\Users\[your username]\AppData\Local\Packages\CanonicalGroupLimited.[your linux distribution]\LocalState\ext4.vhdx"
+   "C:\Users\[your username]\AppData\Local\Packages\CanonicalGroupLimited.[your linux distribution]\LocalState\ext4.vhdx"
 
 2. Open PowerShell and enter the following commands:
     ```powershell

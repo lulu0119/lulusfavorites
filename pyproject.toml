@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "lulusfavorites"
+version = "0.0.1"
+description = "Lulu's Favorites"
+authors = ["Lulu <anlulu.dev@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+watchdog = "^4.0.1"

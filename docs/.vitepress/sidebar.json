@@ -1,5 +1,19 @@
 [
     {
+        "text": "Algorithm",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "Edit distance and backtracking path",
+                "link": "/Favorites/Algorithm/Edit distance and backtracking path.md"
+            },
+            {
+                "text": "Water pouring puzzle",
+                "link": "/Favorites/Algorithm/Water pouring puzzle.md"
+            }
+        ]
+    },
+    {
         "text": "Dependency Guides",
         "collapsed": false,
         "items": [
@@ -8,12 +22,12 @@
                 "collapsed": true,
                 "items": [
                     {
-                        "text": "\u81ea\u52a8\u5316\u9879\u76ee\u73af\u5883\u914d\u7f6e",
-                        "link": "/Favorites/Dependency Guides/Conda/\u81ea\u52a8\u5316\u9879\u76ee\u73af\u5883\u914d\u7f6e.md"
-                    },
-                    {
                         "text": "\u5b89\u88c5\u5b8cConda\u540e\u7684\u5fc5\u505a\u4e8b\u9879",
                         "link": "/Favorites/Dependency Guides/Conda/\u5b89\u88c5\u5b8cConda\u540e\u7684\u5fc5\u505a\u4e8b\u9879.md"
+                    },
+                    {
+                        "text": "\u81ea\u52a8\u5316\u9879\u76ee\u73af\u5883\u914d\u7f6e",
+                        "link": "/Favorites/Dependency Guides/Conda/\u81ea\u52a8\u5316\u9879\u76ee\u73af\u5883\u914d\u7f6e.md"
                     }
                 ]
             }
@@ -28,86 +42,14 @@
                 "collapsed": true,
                 "items": [
                     {
-                        "text": "WSL and VMware Incompatibility",
-                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL and VMware Incompatibility.md"
-                    },
-                    {
                         "text": "How do I free up space on WSL",
                         "link": "/Favorites/Operating System/Windows Subsystem for Linux/How do I free up space on WSL.md"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "text": "JavaScript Docs",
-        "collapsed": false,
-        "items": [
-            {
-                "text": "VitePress",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "VitePress Sidebar",
-                        "link": "/Favorites/JavaScript Docs/VitePress/VitePress Sidebar.md"
                     },
                     {
-                        "text": "How to use VitePress to show LaTeX",
-                        "link": "/Favorites/JavaScript Docs/VitePress/How to use VitePress to show LaTeX.md"
+                        "text": "WSL and VMware Incompatibility",
+                        "link": "/Favorites/Operating System/Windows Subsystem for Linux/WSL and VMware Incompatibility.md"
                     }
                 ]
-            },
-            {
-                "text": "Element Plus",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "How to Set the Height of el-menu",
-                        "link": "/Favorites/JavaScript Docs/Element Plus/How to Set the Height of el-menu.md"
-                    }
-                ]
-            },
-            {
-                "text": "Uniapp",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "\u5728Uniapp\u4e2d\u4f7f\u7528ECharts",
-                        "link": "/Favorites/JavaScript Docs/Uniapp/\u5728Uniapp\u4e2d\u4f7f\u7528ECharts.md"
-                    }
-                ]
-            },
-            {
-                "text": "Nuxt",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "vuedraggable custom component setup in Nuxt3",
-                        "link": "/Favorites/JavaScript Docs/Nuxt/vuedraggable custom component setup in Nuxt3.md"
-                    },
-                    {
-                        "text": "Cannot load Pinia in Nuxt3",
-                        "link": "/Favorites/JavaScript Docs/Nuxt/Cannot load Pinia in Nuxt3.md"
-                    },
-                    {
-                        "text": "How to use jQuery in Nuxt.js",
-                        "link": "/Favorites/JavaScript Docs/Nuxt/How to use jQuery in Nuxt.js.md"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "text": "Algorithm",
-        "collapsed": false,
-        "items": [
-            {
-                "text": "Water pouring puzzle",
-                "link": "/Favorites/Algorithm/Water pouring puzzle.md"
-            },
-            {
-                "text": "Edit distance and backtracking path",
-                "link": "/Favorites/Algorithm/Edit distance and backtracking path.md"
             }
         ]
     },
@@ -116,12 +58,70 @@
         "collapsed": false,
         "items": [
             {
-                "text": "How to Fix No module named RPi Error on Raspberry Pi",
-                "link": "/Favorites/Raspberry Pi/How to Fix No module named RPi Error on Raspberry Pi.md"
-            },
-            {
                 "text": "Configuring I2C on the Raspberry Pi",
                 "link": "/Favorites/Raspberry Pi/Configuring I2C on the Raspberry Pi.md"
+            },
+            {
+                "text": "How to Fix No module named RPi Error on Raspberry Pi",
+                "link": "/Favorites/Raspberry Pi/How to Fix No module named RPi Error on Raspberry Pi.md"
+            }
+        ]
+    },
+    {
+        "text": "Toolbox",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "How to Use Git and GitHub",
+                "link": "/Favorites/Toolbox/How to Use Git and GitHub.md"
+            },
+            {
+                "text": "Interview Questions",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Web development and optimization",
+                        "link": "/Favorites/Toolbox/Interview Questions/Web development and optimization.md"
+                    },
+                    {
+                        "text": "Web Frontend",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "HTML & CSS",
+                                "link": "/Favorites/Toolbox/Interview Questions/Web Frontend/HTML & CSS.md"
+                            },
+                            {
+                                "text": "JavaScript",
+                                "link": "/Favorites/Toolbox/Interview Questions/Web Frontend/JavaScript.md"
+                            },
+                            {
+                                "text": "TypeScript",
+                                "link": "/Favorites/Toolbox/Interview Questions/Web Frontend/TypeScript.md"
+                            },
+                            {
+                                "text": "Uniapp",
+                                "link": "/Favorites/Toolbox/Interview Questions/Web Frontend/Uniapp.md"
+                            },
+                            {
+                                "text": "Vue",
+                                "link": "/Favorites/Toolbox/Interview Questions/Web Frontend/Vue.md"
+                            },
+                            {
+                                "text": "Web APIs",
+                                "link": "/Favorites/Toolbox/Interview Questions/Web Frontend/Web APIs.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "Prompt Palette",
+                "link": "/Favorites/Toolbox/Prompt Palette.md"
+            },
+            {
+                "text": "Tools",
+                "link": "/Favorites/Toolbox/Tools.md"
             }
         ]
     },
@@ -138,28 +138,58 @@
                         "link": "/Favorites/Web Frontend/AJAX/Using AJAX to Interact with {JSON} Placeholder.md"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "text": "Toolbox",
-        "collapsed": false,
-        "items": [
-            {
-                "text": "Interview Questions",
-                "link": "/Favorites/Toolbox/Interview Questions.md"
             },
             {
-                "text": "Prompt Palette",
-                "link": "/Favorites/Toolbox/Prompt Palette.md"
+                "text": "Element Plus",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "How to Set the Height of el-menu",
+                        "link": "/Favorites/Web Frontend/Element Plus/How to Set the Height of el-menu.md"
+                    }
+                ]
             },
             {
-                "text": "Tools",
-                "link": "/Favorites/Toolbox/Tools.md"
+                "text": "Nuxt",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Cannot load Pinia in Nuxt3",
+                        "link": "/Favorites/Web Frontend/Nuxt/Cannot load Pinia in Nuxt3.md"
+                    },
+                    {
+                        "text": "How to use jQuery in Nuxt.js",
+                        "link": "/Favorites/Web Frontend/Nuxt/How to use jQuery in Nuxt.js.md"
+                    },
+                    {
+                        "text": "vuedraggable custom component setup in Nuxt3",
+                        "link": "/Favorites/Web Frontend/Nuxt/vuedraggable custom component setup in Nuxt3.md"
+                    }
+                ]
             },
             {
-                "text": "How to Use Git and GitHub",
-                "link": "/Favorites/Toolbox/How to Use Git and GitHub.md"
+                "text": "Uniapp",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "\u5728Uniapp\u4e2d\u4f7f\u7528ECharts",
+                        "link": "/Favorites/Web Frontend/Uniapp/\u5728Uniapp\u4e2d\u4f7f\u7528ECharts.md"
+                    }
+                ]
+            },
+            {
+                "text": "VitePress",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "How to use VitePress to show LaTeX",
+                        "link": "/Favorites/Web Frontend/VitePress/How to use VitePress to show LaTeX.md"
+                    },
+                    {
+                        "text": "VitePress Sidebar",
+                        "link": "/Favorites/Web Frontend/VitePress/VitePress Sidebar.md"
+                    }
+                ]
             }
         ]
     }

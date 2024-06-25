@@ -3,14 +3,18 @@
 :::
 
 # VitePress Sidebar
+
 ## Introduction
+
 Vitepress has a beautiful and easy-to-use sidebar, but currently, it doesn't offer an option to automatically generate sidebars. However, there are several plugins available that can help you achieve this functionality. Some popular options include:
-- Vitepress-Sidebar
-- Vite-Plugin-Vitepress-Auto-Sidebar
+
+-   Vitepress-Sidebar
+-   Vite-Plugin-Vitepress-Auto-Sidebar
 
 If you prefer not to install multiple plugins, you can use the following code to create a sidebar.
 
 ## Create the Python Script
+
 The first step is to create a Python script that contains the `sidebar_generator` function and the code for parsing command-line arguments. You can store this script in a file with any name you like, but we recommend naming it `sidebar_generator.py` to make it clear what the script does.
 Here's an example of what the `sidebar_generator.py` file might look like:
 
@@ -108,7 +112,9 @@ if __name__ == '__main__':
 ```
 
 ## How the Script Works
+
 Suppose you have a documentation site with the following file structure:
+
 ```shell
 /
 ├── README.md
@@ -120,7 +126,9 @@ Suppose you have a documentation site with the following file structure:
     ├── reference.md
     └── usage.md
 ```
+
 To generate a sidebar for this site, you can call the auto_sidebar function with the following arguments:
+
 ```python
 document_path = './'
 output_path = '.vitepress/sidebar.json'
@@ -134,14 +142,17 @@ result = sidebar_generator(
 with open(output_path, "w") as f:
     json.dump(result, f, indent=4)
 ```
+
 This will generate a sidebar with the following structure:
+
 ```
 - Getting Started
 - Advanced
   - Topics
   - Examples
 ```
-Let's break down the options: 
+
+Let's break down the options:
 
 `document_path`: The path to the root directory of your documentation site. In this example, it's `./`.  
 `collapsed`: A boolean flag that determines whether sub-items in the sidebar should be collapsed by default. In this example, it's not specified, so it defaults to False.  
@@ -154,6 +165,7 @@ The `sidebar_generator` function recursively traverses the directory tree starti
 ## Generate the Sidebar
 
 Once you've created the `sidebar_generator.py` file, you can use it to generate the sidebar for your VitePress documentation site. To do this, you can run the `sidebar_generator.py` file from the command line using the following command:
+
 ```shell
 python sidebar_generator.py --document-path docs/ --exclude-files README.md --exclude-folders api --collapse-depth 2 --collapsed --output-path docs/.vitepress/sidebar.json
 ```
@@ -161,30 +173,36 @@ python sidebar_generator.py --document-path docs/ --exclude-files README.md --ex
 This will generate a sidebar for the `docs/` directory, excluding the `README.md` file and the `api` folder, collapsing sub-items to a depth of 2 levels, and setting the sidebar to be initially collapsed. The resulting JSON object will be saved to the `docs/.vitepress/sidebar.json` file.
 
 ## How to implement
+
 Once you've generated the sidebar using the `sidebar_generator` function, you can save it as a JSON file and import it in your `.vitepress/config.js` file using the sidebar option in the `themeConfig` object.
+
 ```typescript
-import sidebar from './sidebar.json'
+import sidebar from "./sidebar.json";
 
 export default defineConfig({
-  themeConfig: {
-    sidebar
-  }
+    themeConfig: {
+        sidebar,
+    },
 });
 ```
+
 With this configuration, VitePress will have a sidebar based on the file structure of your documentation site, excluding any files or folders that you've specified in the exclude_files and exclude_folders options.
 
 ## Automatically Generate
+
 To generate the sidebar automatically before building your VitePress site, you can add a command to your `package.json` file that runs the `sidebar_generator.py` file before running the vitepress build command.
 
 Here's an example of how to add this command to your package.json file:
+
 ```json
 {
     "scripts": {
-    "prebuild": "python sidebar_generator.py --document-path docs/ --exclude-files README.md --exclude-folders api --collapse-depth 2 --collapsed --output-path docs/.vitepress/sidebar.json",
-    "docs:build": "npm run prebuild && vitepress build docs",
-  }
+        "prebuild": "python sidebar_generator.py --document-path docs/ --exclude-files README.md --exclude-folders api --collapse-depth 2 --collapsed --output-path docs/.vitepress/sidebar.json",
+        "docs:build": "npm run prebuild && vitepress build docs"
+    }
 }
 ```
+
 With this configuration, the sidebar will be generated automatically before building your VitePress site, ensuring that the sidebar is always up-to-date with the contents of your documentation site.
 
 I hope this helps you generate a beautiful and easy-to-use sidebar for your VitePress documentation site!

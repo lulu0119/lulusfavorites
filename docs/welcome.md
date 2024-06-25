@@ -1,4 +1,4 @@
-# Welcome to Lulu's Favorites! 
+# Welcome to Lulu's Favorites!
 
 Hi there, I'm Lulu 👋. I'm absolutely thrilled to welcome you to "Lulu's Favorites" - your gateway to a world of tech wonders! This website is a curated collection of my favorite tech discoveries, carefully selected from the vast expanse of the internet.
 

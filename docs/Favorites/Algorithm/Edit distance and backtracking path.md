@@ -1,11 +1,13 @@
 # Edit distance and backtracking path
 
-**Edit distance** is a quantitative measure of the difference between two strings, such as English words. It measures the minimum number of operations required to transform one string into another.  
+**Edit distance** is a quantitative measure of the difference between two strings, such as English words. It measures the minimum number of operations required to transform one string into another.
 
 In Levenshtein distance, any single character can be deleted, inserted, or substituted in either string, which is the most commonly used definition of edit distance. When edit distance is mentioned, it usually refers to Levenshtein distance.
 
 ## Definition
+
 If we use $\left | a \right |$ and $\left | b \right |$ to represent the lengths of two strings $a$ and $b$, then their Levenshtein distance is $\operatorname{lev} _{a, b} (\left | a \right | ,\left | b \right | )$, which satisfies:
+
 $$
 \operatorname{lev} _{a, b} (i,j) = \begin{cases}
 \begin{aligned}
@@ -28,6 +30,7 @@ Here, $1 _{(a_i \neq b_j)}$ is an indicator function. When $a_i = b_j$, its valu
 Dynamic programming is often used as one of the solutions to this problem.
 
 The following code demonstrates the implementation of the Levenshtein distance algorithm and backtracking for finding the operations to transform one string into another.
+
 ```python
 import numpy as np
 
@@ -82,14 +85,16 @@ def levenshtein(str_a, str_b):
             else:
                 # If the distance came from a deletion, move up
                 i -= 1
-                operation = f"Deletion {str_a[i]} at position {i}"  
+                operation = f"Deletion {str_a[i]} at position {i}"
             operations.append(operation)
 
     # Reverse the list of operations and return it
     operations.reverse()
     return operations
 ```
+
 To use the levenshtein function, you can call it with two strings as arguments, like this:
+
 ```python
 str_a = "25abdfxx"
 str_b = "abcdefg"
@@ -97,6 +102,7 @@ result = levenshtein(str_a, str_b)
 for i, operation in enumerate(result):
     print(f"Step {i+1}: {operation}")
 ```
+
 This will output the list of operations needed to transform **str_a** into **str_b**, along with the step number for each operation.
 
 For more information on Levenshtein distance, see [Wikipedia][1].

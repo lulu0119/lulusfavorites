@@ -1,17 +1,19 @@
 # WSL and VMware Incompatibility: VMware Fails to Start After Installing WSL
 
-| Original Source                                                             | Author     | Title                                                 | Copyright Notice |
-| --------------------------------------------------------------------------- | ---------- | ----------------------------------------------------- | ---------------- |
-| [CSDN博客](https://blog.csdn.net/weixin_41019705/article/details/105167871) | zhuxiatong | Windows安装WSL(解决VMware Workstation和Hyper-V不兼容) | CC BY-SA 4.0     |
+| Original Source                                                              | Author     | Title                                                       | Copyright Notice |
+| ---------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------- | ---------------- |
+| [CSDN 博客](https://blog.csdn.net/weixin_41019705/article/details/105167871) | zhuxiatong | Windows 安装 WSL(解决 VMware Workstation 和 Hyper-V 不兼容) | CC BY-SA 4.0     |
 
 WSL relies on Hyper-V, which must be enabled, while VMware does not depend on it and must be disabled.
 
 To use WSL, open CMD in administrator mode and enter the following command:
+
 ```cmd
 bcdedit /set hypervisorlaunchtype auto
 ```
 
 To use VMware, open CMD in administrator mode and enter the following command:
+
 ```cmd
 bcdedit /set hypervisorlaunchtype off
 ```
