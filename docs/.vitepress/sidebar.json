@@ -190,6 +190,22 @@
                         "link": "/Favorites/Web Frontend/VitePress/VitePress Sidebar.md"
                     }
                 ]
+            },
+            {
+                "text": "VueVapor",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Source code analysis",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "createVaporApp",
+                                "link": "/Favorites/Web Frontend/VueVapor/Source code analysis/createVaporApp.md"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }
