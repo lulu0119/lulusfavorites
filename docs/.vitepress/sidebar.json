@@ -54,6 +54,22 @@
         ]
     },
     {
+        "text": "Programming Language",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "Rust",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "\u53d8\u91cf\u3001\u5e38\u91cf\u4e0e\u53ef\u53d8\u6027",
+                        "link": "/Favorites/Programming Language/Rust/\u53d8\u91cf\u3001\u5e38\u91cf\u4e0e\u53ef\u53d8\u6027.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "text": "Raspberry Pi",
         "collapsed": false,
         "items": [
@@ -192,7 +208,7 @@
                 ]
             },
             {
-                "text": "VueVapor",
+                "text": "Vue Vapor",
                 "collapsed": true,
                 "items": [
                     {
@@ -200,8 +216,8 @@
                         "collapsed": true,
                         "items": [
                             {
-                                "text": "createVaporApp",
-                                "link": "/Favorites/Web Frontend/VueVapor/Source code analysis/createVaporApp.md"
+                                "text": "\u5e94\u7528\u7a0b\u5e8f\u542f\u52a8\u4e0e\u6e32\u67d3\u6d41\u7a0b",
+                                "link": "/Favorites/Web Frontend/Vue Vapor/Source code analysis/\u5e94\u7528\u7a0b\u5e8f\u542f\u52a8\u4e0e\u6e32\u67d3\u6d41\u7a0b.md"
                             }
                         ]
                     }

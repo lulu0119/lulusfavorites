@@ -1,7 +1,7 @@
 {
     "type": "module",
     "scripts": {
-        "docs:update-sidebar": "python update-sidebar.py --document-path docs/Favorites/ --collapse-depth 1 --collapsed --output-path docs/.vitepress/sidebar.json --watch",
+        "docs:update-sidebar": "python update-sidebar.py --document-path docs/Favorites/ --collapse-depth 1 --collapsed --output-path docs/.vitepress/sidebar.json",
         "docs:dev": "vitepress dev docs",
         "docs:build": "vitepress build docs",
         "docs:preview": "vitepress preview docs"
