@@ -127,3 +127,38 @@ BEM 命名规范的优点在于它可以提高 CSS 代码的可读性和可维�
 ```
 
 在上面的示例中，通过设置 white-space 为 nowrap，禁止文本换行；设置 overflow 为 hidden，使得溢出部分的文本被隐藏；设置 text-overflow 为 ellipsis，当文本溢出时显示省略号。这样就可以实现单行文本溢出隐藏的效果。
+
+## 实现一个模态对话框
+
+### 编写一个 HTML 代码片段，实现以下功能，并解释关键部分
+
+1. 页面上有一个按钮，文本为“弹窗”。
+2. 点击按钮后，弹出一个模态对话框（modal dialog）显示信息：“this is a window”，并包含一个文本输入框。
+3. 对话框内还有一个按钮，用于关闭该对话框。
+
+请提供代码实现，并简要说明各部分代码的作用。
+
+### 回答
+
+```html
+<body>
+    <!-- 按钮触发弹窗 -->
+    <button onclick="dog.showModal()">弹窗</button>
+
+    <!-- 定义模态对话框，id为'dog' -->
+    <dialog id="dog">
+        <p>this is a window</p>
+        <input type="text" />
+        <!-- 关闭按钮，点击后调用dog.close()方法关闭对话框 -->
+        <p><button onclick="dog.close()">关闭</button></p>
+    </dialog>
+</body>
+```
+
+### 核心要点总结
+
+在 HTML 中，元素的 `id` 属性不仅作为标识符，还会使其变为全局 `window` 对象的属性，故可通过 `id` 名直接在 JS 中调用，如 `dog.showModal()`和 `dog.close()`。
+
+此机制允许直接利用 HTML5 `<dialog>`元素内置的 `showModal()`和 `close()`方法来控制对话框的显示与隐藏，无须使用 `document.querySelector` 等方法进行元素选取，简化了代码实现。
+
+但此做法可能引发全局命名冲突等问题，现代实践中推荐权衡利弊后使用。

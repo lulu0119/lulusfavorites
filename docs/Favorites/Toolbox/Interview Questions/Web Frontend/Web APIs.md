@@ -5,46 +5,50 @@
 DOM（Document Object Model）是一种用于表示和操作 HTML 和 XML 文档的 API。在 JavaScript 中，可以使用 DOM 操作方法来创建、修改和删除 HTML 元素和属性。
 以下是一些常用的 DOM 操作方法：
 
-1. createElement(tagName)：创建一个指定标签名的 HTML 元素节点。
+1.  createElement(tagName)：创建一个指定标签名的 HTML 元素节点。
     ```javascript
     let div = document.createElement("div");
     ```
-2. createTextNode(text)：创建一个包含指定文本内容的文本节点。
+2.  createTextNode(text)：创建一个包含指定文本内容的文本节点。
     ```javascript
     let textNode = document.createTextNode("Hello, world!");
     ```
-3. appendChild(node)：将一个节点添加到另一个节点的子节点列表的末尾。
+3.  appendChild(node)：将一个节点添加到另一个节点的子节点列表的末尾。
     ```javascript
     let parent = document.getElementById("parent");
     let child = document.createElement("div");
     parent.appendChild(child);
     ```
-4. insertBefore(newNode, referenceNode)：将一个节点插入到另一个节点的子节点列表中，插入到参考节点之前。
+4.  insertBefore(newNode, referenceNode)：将一个节点插入到另一个节点的子节点列表中，插入到参考节点之前。
     ```javascript
     let parent = document.getElementById("parent");
     let child = document.createElement("div");
     let referenceNode = document.getElementById("reference");
     parent.insertBefore(child, referenceNode);
     ```
-5. removeChild(node)：从一个节点的子节点列表中删除一个节点。
+5.  removeChild(node)：从一个节点的子节点列表中删除一个节点。
     ```javascript
     let parent = document.getElementById("parent");
     let child = document.getElementById("child");
     parent.removeChild(child);
     ```
-6. setAttribute(name, value)：为一个 HTML 元素设置一个属性。
+6.  setAttribute(name, value)：为一个 HTML 元素设置一个属性。
     ```javascript
     let element = document.getElementById("element");
     element.setAttribute("class", "my-class");
     ```
-7. getAttribute(name)：获取一个 HTML 元素的指定属性的值。
+7.  getAttribute(name)：获取一个 HTML 元素的指定属性的值。
 
-    ```javascript
-    let element = document.getElementById("element");
-    let className = element.getAttribute("class");
-    ```
+        ```javascript
+        let element = document.getElementById("element");
+        let className = element.getAttribute("class");
+        ```
 
 DOM 操作方法可以帮助开发者动态地创建、修改和删除 HTML 元素和属性，实现动态的页面效果和交互。但是，频繁的 DOM 操作可能会影响页面的性能，因此需要谨慎使用。
+
+## `DOMContentLoaded`
+
+`DOMContentLoaded`事件：这是一个事件，表示文档已经完成加载，并已被浏览器解析为一个 DOM 树。这意味着此时可以安全地查询和操作 DOM 元素，而不用担心某些元素还没有被加载或解析。
 
 ## sessionStorage & localStorage
 
