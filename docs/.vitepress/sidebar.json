@@ -228,24 +228,40 @@
                 ]
             },
             {
+                "text": "Vue",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Vue.js\u8bbe\u8ba1\u4e0e\u5b9e\u73b0",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "1. \u5206\u652f\u5207\u6362\u4e0e cleanup \u5b66\u4e60\u7b14\u8bb0",
+                                "link": "/Favorites/Web Frontend/Vue/Vue.js\u8bbe\u8ba1\u4e0e\u5b9e\u73b0/1. \u5206\u652f\u5207\u6362\u4e0e cleanup \u5b66\u4e60\u7b14\u8bb0.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "text": "Vue Vapor",
                 "collapsed": true,
                 "items": [
                     {
-                        "text": "Source code analysis",
+                        "text": "\u6e90\u4ee3\u7801\u5206\u6790",
                         "collapsed": true,
                         "items": [
                             {
                                 "text": "1. \u5e94\u7528\u7a0b\u5e8f\u542f\u52a8\u4e0e\u6e32\u67d3\u6d41\u7a0b",
-                                "link": "/Favorites/Web Frontend/Vue Vapor/Source code analysis/1. \u5e94\u7528\u7a0b\u5e8f\u542f\u52a8\u4e0e\u6e32\u67d3\u6d41\u7a0b.md"
+                                "link": "/Favorites/Web Frontend/Vue Vapor/\u6e90\u4ee3\u7801\u5206\u6790/1. \u5e94\u7528\u7a0b\u5e8f\u542f\u52a8\u4e0e\u6e32\u67d3\u6d41\u7a0b.md"
                             },
                             {
                                 "text": "2. Hello World!",
-                                "link": "/Favorites/Web Frontend/Vue Vapor/Source code analysis/2. Hello World!.md"
+                                "link": "/Favorites/Web Frontend/Vue Vapor/\u6e90\u4ee3\u7801\u5206\u6790/2. Hello World!.md"
                             },
                             {
                                 "text": "3. \u54cd\u5e94\u5f0f\u7cfb\u7edf",
-                                "link": "/Favorites/Web Frontend/Vue Vapor/Source code analysis/3. \u54cd\u5e94\u5f0f\u7cfb\u7edf.md"
+                                "link": "/Favorites/Web Frontend/Vue Vapor/\u6e90\u4ee3\u7801\u5206\u6790/3. \u54cd\u5e94\u5f0f\u7cfb\u7edf.md"
                             }
                         ]
                     }
