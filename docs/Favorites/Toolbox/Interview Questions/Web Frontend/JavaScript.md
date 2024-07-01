@@ -208,3 +208,45 @@ let 和 const: ES6 引入了 let 和 const 关键字来声明变量，它们具�
 console.log(b); // 抛出 ReferenceError，因为let声明的变量没有被提升
 let b = 10;
 ```
+
+## 事件循环
+
+在 JavaScript 中，事件循环是其异步编程模型的核心。事件循环管理着各种任务的执行，这些任务大致可以分为两类：宏任务（macrotasks）和微任务（microtasks）。
+
+### 宏任务
+
+宏任务是事件循环中最常见的一类任务，包括像 setTimeout, setInterval, setImmediate（在 Node.js 中）以及事件监听器等。宏任务的执行会占据事件循环的一个完整的周期。当一个宏任务开始执行时，它会一直运行直到完成，期间不会让出 CPU 给其他任务，即使这个任务很耗时。
+
+### 微任务
+
+微任务则是事件循环中的另一类任务，它包括 Promise 的回调、MutationObserver 的回调等。微任务的特点是，它们会在当前宏任务执行完毕后立即执行，但在下一轮宏任务开始之前。也就是说，一旦一个宏任务完成，事件循环会检查微任务队列中是否有任务需要执行，如果有，它会立即执行所有的微任务，直到微任务队列清空。
+
+### 如何工作？
+
+当 JavaScript 引擎执行代码时，它会遇到异步操作，如发起网络请求或创建一个 Promise。当这些异步操作完成时，它们会生成一个任务，这个任务会被放入适当的队列中。当当前的宏任务执行完毕，事件循环会先处理所有微任务队列中的任务，然后再继续下一个宏任务。
+
+假设你有以下代码：
+
+```Javascript
+console.log('Start');
+
+setTimeout(() => {
+  console.log('Timer');
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log('Promise');
+});
+
+console.log('End');
+
+```
+
+这段代码的输出顺序将是：
+
+1. Start
+2. End
+3. Promise
+4. Timer
+
+这里，`console.log('Start')`和 `console.log('End')`是同步代码，作为宏任务的一部分执行。`setTimeout` 也是一个宏任务，但它被安排在稍后的事件循环周期中执行。`Promise.resolve().then(...)`产生的任务是微任务，它会在当前宏任务执行完毕后立即执行，但在 `setTimeout` 宏任务之前。
