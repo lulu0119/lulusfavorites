@@ -66,3 +66,37 @@ DOM 操作方法可以帮助开发者动态地创建、修改和删除 HTML 元�
 总结
 sessionStorage 适用于需要在单个浏览器会话期间临时存储数据的场景，适合敏感信息存储，因为它不跨窗口或标签页共享，且会话结束即清除。
 localStorage 则适用于需要长期存储、跨窗口或标签页共享但仍然限于同一源的数据存储需求。
+
+## MutationObserver
+
+`MutationObserver` 是 JavaScript 中一个用于观察 DOM 树变化的 API。当你创建一个 `MutationObserver` 实例并传入一个回调函数时，这个回调函数会成为 `MutationObserver` 的监听器。
+
+每当 DOM 树中被观察的部分发生变化时，这个回调函数就会被调用，接收一个 `MutationRecord` 类型的数组作为参数。这个数组包含了描述所有变化的记录。
+
+回调函数的签名通常如下：
+
+```javascript
+const callback = function (mutationsList, observer) {
+    for (let mutation of mutationsList) {
+        if (mutation.type === "childList") {
+            console.log("A child node has been added or removed.");
+        } else if (mutation.type === "attributes") {
+            console.log("The " + mutation.attributeName + " attribute was modified.");
+        }
+    }
+};
+const observer = new MutationObserver(callback);
+// 配置观察选项
+const config = { attributes: true, childList: true, subtree: true };
+// 选择要观察的节点
+const targetNode = document.getElementById("someElement");
+// 开始观察目标节点
+observer.observe(targetNode, config);
+```
+
+-   `mutationList` 是一个 `MutationRecord` 对象的数组，每个 `MutationRecord` 对象描述了一次具体的 DOM 变化。
+-   `observer` 是触发回调的 `MutationObserver` 实例本身。
+
+`MutationRecord` 对象包含有关变化的具体信息，如变化的类型（`type`），受影响的节点（`target`），以及变化前后的情况（如旧值和新值）。
+
+在这个例子中，`callback` 函数会在观察的目标节点 `someElement` 发生变化时被调用，无论是节点的子元素列表变化，还是节点的属性变化。
