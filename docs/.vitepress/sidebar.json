@@ -72,6 +72,16 @@
                 ]
             },
             {
+                "text": "Python",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "\u63cf\u8ff0\u7b26\u4e0e\u5c5e\u6027\u88c5\u9970\u5668",
+                        "link": "/Favorites/Programming Language/Python/\u63cf\u8ff0\u7b26\u4e0e\u5c5e\u6027\u88c5\u9970\u5668.md"
+                    }
+                ]
+            },
+            {
                 "text": "Rust",
                 "collapsed": true,
                 "items": [

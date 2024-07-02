@@ -250,3 +250,91 @@ console.log('End');
 4. Timer
 
 这里，`console.log('Start')`和 `console.log('End')`是同步代码，作为宏任务的一部分执行。`setTimeout` 也是一个宏任务，但它被安排在稍后的事件循环周期中执行。`Promise.resolve().then(...)`产生的任务是微任务，它会在当前宏任务执行完毕后立即执行，但在 `setTimeout` 宏任务之前。
+
+## Generator 函数
+
+Generator 函数是 ES6（ECMAScript 2015）引入的一种新特性，用于实现异步操作的同步化流程控制，同时也可以用来创建迭代器。
+
+在 JavaScript 中，一个普通的函数一旦开始执行就会一直运行到结束，然后返回一个值。而 Generator 函数则不同，它允许函数的执行过程被暂停和恢复，这样就可以分段执行函数体内的逻辑。
+
+-   **定义**：使用 `function*`语法来定义一个 Generator 函数。星号`*`表明这是一个特殊类型的函数，能够生成一系列的值。
+-   **`yield`关键字**：在 Generator 函数内部，`yield`关键字用于产生一个值，并暂停函数的执行。当函数再次被调用时，它会从上次暂停的地方继续执行，而不是重新开始。
+-   **迭代器协议**：Generator 函数返回一个迭代器对象，这个迭代器遵循迭代器协议，即具有 `next()`方法。调用 `next()`方法会执行 Generator 函数直到遇到下一个`yield`表达式，然后返回一个包含两个属性的对象：`value` 和 `done`。`value` 是`yield` 表达式的值，`done` 是一个布尔值，表示是否已经到达了 Generator 函数的末尾。
+-   **双向通信**：除了产生值之外，Generator 函数还可以接收外部传入的值。这可以通过 `next()`方法的参数来实现。
+-   **异步流控制**：由于其独特的暂停/恢复机制，Generator 函数非常适合用于异步编程，可以使得异步代码看起来像同步代码一样，提高了代码的可读性和可维护性。
+
+一个简单的 Generator 函数如下所示：
+
+```javascript
+function* countUpTo(n) {
+    for (let i = 1; i <= n; i++) {
+        yield i;
+    }
+}
+const counter = countUpTo(5);
+console.log(counter.next()); // { value: 1, done: false }
+console.log(counter.next()); // { value: 2, done: false }
+// ...
+console.log(counter.next()); // { value: 5, done: false }
+console.log(counter.next()); // { value: undefined, done: true }
+```
+
+## Symbol
+
+`Symbol` 是一种新的原始数据类型，它被设计用来作为对象属性的键值。`Symbol` 值是唯一的，并且不会被转译或转码。`Symbol` 值不能与其他类型的值进行运算，但是可以显式转换为字符串或布尔值。
+
+```javascript
+let name = Symbol("name");
+let age = Symbol("age");
+let person = {
+    [name]: "John",
+    [age]: 30,
+};
+console.log(person[name]); // John
+console.log(person[age]); // 30
+```
+
+switch 语句可以用来匹配 Symbol 值。
+
+```javascript
+const MONDAY = Symbol("Monday");
+const TUESDAY = Symbol("Tuesday");
+
+function getDayOfWeek(day) {
+    switch (day) {
+        case MONDAY:
+            return "Monday";
+        case TUESDAY:
+            return "Tuesday";
+        default:
+            return "Invalid day";
+    }
+}
+```
+
+使用 `Symbol` 来代替字符串，可以避免魔术字符串的出现，使得代码更加可读和可维护。
+
+```javascript
+const shapes = {
+    RECTANGLE: Symbol("Rectangle"),
+    TRIANGLE: Symbol("Triangle"),
+};
+const getArea = (shape, width, height) => {
+    let area = 0;
+    switch (shape) {
+        case shapes.RECTANGLE:
+            area = width * height;
+            break;
+        case shapes.TRIANGLE:
+            area = (width * height) / 2;
+            break;
+        default:
+            area = 0;
+            break;
+    }
+    return area;
+};
+console.log(getArea(shapes.RECTANGLE, 10, 20)); // 200
+```
+
+`Symbol` 作为属性名，在遍历对象时不会出现在 `for...in` 或 `for...of` 循环中，也不会被 `Object.keys()`、`Object.getOwnPropertyNames()`、`JSON.stringify()` 等方法遍历。
