@@ -58,6 +58,20 @@
         "collapsed": false,
         "items": [
             {
+                "text": "Javascript",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Reflect",
+                        "link": "/Favorites/Programming Language/Javascript/Reflect.md"
+                    },
+                    {
+                        "text": "\u666e\u901a\u5bf9\u8c61 vs Proxy \u5bf9\u8c61\u4e0e Getter\u3001Setter \u7684\u5bf9\u6bd4\u5206\u6790",
+                        "link": "/Favorites/Programming Language/Javascript/\u666e\u901a\u5bf9\u8c61 vs Proxy \u5bf9\u8c61\u4e0e Getter\u3001Setter \u7684\u5bf9\u6bd4\u5206\u6790.md"
+                    }
+                ]
+            },
+            {
                 "text": "Rust",
                 "collapsed": true,
                 "items": [
