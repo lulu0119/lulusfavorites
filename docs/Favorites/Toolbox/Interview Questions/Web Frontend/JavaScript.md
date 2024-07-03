@@ -338,3 +338,20 @@ console.log(getArea(shapes.RECTANGLE, 10, 20)); // 200
 ```
 
 `Symbol` 作为属性名，在遍历对象时不会出现在 `for...in` 或 `for...of` 循环中，也不会被 `Object.keys()`、`Object.getOwnPropertyNames()`、`JSON.stringify()` 等方法遍历。
+
+## 稀疏数组
+
+`let arr = [1, , 3];` 在这个例子中，`arr` 是一个稀疏数组，因为索引 `1` 没有被分配任何值。
+
+-   **空槽行为**：空槽在访问时返回 `undefined`，这是因为没有给定索引的值尚未被设置。这些未被分配值的索引不是真正存储 `undefined`，而是被视为未定义的。
+-   **`length`属性**：稀疏数组的 `length` 属性等于最后一个已分配索引加 `1`。即使某些中间索引未被赋值，`length` 也会反映出最大的索引。
+
+    ```javascript
+    let arr = [1];
+    // 如果index >= oldLen，将自动调整数组的length属性，使其等于被设置的index + 1
+    arr[2] = 3;
+    console.log(arr.length); // 3
+    ```
+
+-   **遍历问题**：在遍历时，稀疏数组中的未定义元素不会被枚举，这意味着 `for` 循环或 `Array.prototype.forEach()`等迭代方法不会访问到那些空槽。
+-   **性能影响**：稀疏数组可能会影响性能，因为它们不能高效地利用内存，且某些操作（如查找和遍历）可能更慢。密集数组（没有空槽的数组）通常提供更好的性能。
