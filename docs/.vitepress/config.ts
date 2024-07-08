@@ -7,7 +7,16 @@ import sidebar from "./sidebar.json";
 export default defineConfig({
     title: "Lulu's Favorites",
     description: `Welcome to "Lulu's Favorites"! Explore the tech wonders from my browser favorites - coding, hardware, and more. Let's embark on this tech journey together!`,
-    head: [["link", { rel: "icon", href: "/1F31F.svg" }]],
+    head: [
+        ["link", { rel: "icon", href: "/1F31F.svg" }],
+        [
+            "link",
+            {
+                rel: "stylesheet",
+                href: "https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css",
+            },
+        ],
+    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         // logo: '/1F31F.svg',
