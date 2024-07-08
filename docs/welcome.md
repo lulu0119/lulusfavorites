@@ -2,7 +2,7 @@
 
 Hi there, I'm Lulu 👋. I'm absolutely thrilled to welcome you to "Lulu's Favorites" - your gateway to a world of tech wonders! This website is a curated collection of my favorite tech discoveries, carefully selected from the vast expanse of the internet.
 
-## About Me 🏳️‍⚧️
+## About Me 😊
 
 As a tech enthusiast with a passion for coding, hardware, and all things innovative, I've embarked on a quest to explore and share the best tech content out there. I believe that the digital realm offers boundless opportunities for learning, creating, and connecting with like-minded individuals.
 
