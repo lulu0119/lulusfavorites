@@ -2,7 +2,7 @@
     <div>
         <img
             class="w-20"
-            src="./photo_2024-07-08_16-51-47.jpg"
+            src="/photo_2024-07-08_16-51-47.jpg"
             alt="headimg"
         />
     </div>
