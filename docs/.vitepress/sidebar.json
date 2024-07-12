@@ -66,6 +66,14 @@
                         "link": "/Favorites/Programming Language/Javascript/bind \u65b9\u6cd5.md"
                     },
                     {
+                        "text": "call, apply, \u548cbind\u65b9\u6cd5\u7684\u5bf9\u6bd4",
+                        "link": "/Favorites/Programming Language/Javascript/call, apply, \u548cbind\u65b9\u6cd5\u7684\u5bf9\u6bd4.md"
+                    },
+                    {
+                        "text": "forEach \u65b9\u6cd5",
+                        "link": "/Favorites/Programming Language/Javascript/forEach \u65b9\u6cd5.md"
+                    },
+                    {
                         "text": "Reflect",
                         "link": "/Favorites/Programming Language/Javascript/Reflect.md"
                     },
